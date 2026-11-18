@@ -1,0 +1,9 @@
+{
+  "name": "shopsphere",
+  "version": "1.0.0",
+  "description": "ShopSphere - Online Shopping System (Node.js + SQLite + HTML/CSS/JS)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js", "reset-db": "node reset-db.js" },
+  "engines": { "node": ">=22.13.0" },
+  "license": "MIT"
+}

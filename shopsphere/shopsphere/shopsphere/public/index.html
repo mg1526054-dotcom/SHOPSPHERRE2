@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShopSphere - Online Shopping</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E🛍️%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="ticker"><div class="track"><span>🚚 Free delivery on orders above ₹499</span><span>🔥 Up to 70% off on top brands</span><span>💳 Pay with UPI, card or cash on delivery</span><span>↩️ 7-day easy returns</span><span>🚚 Free delivery on orders above ₹499</span><span>🔥 Up to 70% off on top brands</span><span>💳 Pay with UPI, card or cash on delivery</span><span>↩️ 7-day easy returns</span></div></div>
+  <header class="topbar">
+    <div class="wrap topbar-row">
+      <a href="#/" class="logo">Shop<span>Sphere</span></a>
+      <form id="searchForm" class="search">
+        <select id="searchCat"><option value="">All</option></select>
+        <input id="searchInput" type="search" placeholder="Search for products, brands and more" aria-label="Search products">
+        <button type="submit" aria-label="Search">🔍</button>
+      </form>
+      <nav class="actions" id="navActions"></nav>
+    </div>
+    <div class="catbar"><div class="wrap" id="catNav"></div></div>
+  </header>
+  <main id="app" class="wrap"></main>
+  <footer class="footer">
+    <div class="wrap">
+      <p><strong>ShopSphere</strong> — Your everyday shopping destination</p>
+    </div>
+  </footer>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
